@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.hellofx.HelloController">
+    <children>
+        <Pane prefHeight="215.0" prefWidth="288.0">
+            <children>
+                <Label fx:id="welcomeLabel" layoutX="106.0" layoutY="29.0" prefHeight="36.0" prefWidth="99.0" text="WELCOME">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="choiceBox" layoutX="52.0" layoutY="78.0" prefHeight="25.0" prefWidth="188.0" />
+                <TextField fx:id="userInput" layoutX="53.0" layoutY="127.0" prefHeight="25.0" prefWidth="188.0" promptText="Enter Temperature" />
+                <Button fx:id="convertBtn" layoutX="97.0" layoutY="174.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Convert" />
+            </children>
+        </Pane>
+    </children>
+</VBox>
